@@ -14,6 +14,7 @@ import { LoginComponent } from './login/login/login.component';
 import { SidebarComponent } from './page-section/sidebar/sidebar.component';
 import { HopitalComponent } from './hopitals/hopital/hopital.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     AppointementComponent,
     LoginComponent,
     SidebarComponent,
-    HopitalComponent
+    HopitalComponent,
+    HomeComponent,
+
   ],
   imports: [
     BrowserModule,
