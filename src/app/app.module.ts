@@ -8,8 +8,6 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppointementComponent } from './appointements/appointement/appointement.component';
 import { StoreModule } from '@ngrx/store'
 import { EffectsModule } from '@ngrx/effects';
-import { appointementReducer } from './appointements/store/appointement.reducer';
-import { AppointementEffect } from './appointements/store/appointement.effect';
 import { LoginComponent } from './login/login/login.component';
 import { SidebarComponent } from './page-section/sidebar/sidebar.component';
 import { HopitalComponent } from './hopitals/hopital/hopital.component';
@@ -32,10 +30,6 @@ import { HomeComponent } from './home/home.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    StoreModule.forFeature("appointements", appointementReducer),
-    StoreModule.forRoot({}),
-    EffectsModule.forFeature([AppointementEffect]),
-    EffectsModule.forRoot([]),
     BrowserAnimationsModule
   ],
   providers: [],
