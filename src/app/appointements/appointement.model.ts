@@ -1,4 +1,4 @@
-export class Appointement {
+export class Appointement{
     id: number;
     identityNo: string;
     assurance: string;
