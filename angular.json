@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "ManageHopital"
+  "defaultProject": "ManageHopital",
+  "cli": {
+    "analytics": "d213607f-6776-4e3e-bee9-3fd96d3a8133"
+  }
 }
